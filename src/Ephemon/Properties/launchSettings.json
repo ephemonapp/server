@@ -1,0 +1,19 @@
+﻿{
+  "profiles": {
+    "Ephemon": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5027",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PORT": "5027",
+        "CORS": "",
+        "PATH_BASE": "",
+        "REDIS_CONNECTION_STRING": "localhost:6379",
+        "NOTIFICATION_SUBJECT": "",
+        "NOTIFICATION_PUBLIC_KEY": "",
+        "NOTIFICATION_PRIVATE_KEY": ""
+      }
+    }
+  }
+}

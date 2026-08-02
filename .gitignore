@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/riderModule.iml
+**/_ReSharper.Caches/
+**/Ephemon.sln.DotSettings.user
+**/TestResults
+.idea/
+.vscode/
+**/.DS_Store

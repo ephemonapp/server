@@ -1,0 +1,20 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <CentralPackageTransitivePinningEnabled>false</CentralPackageTransitivePinningEnabled>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.1"/>
+        <PackageVersion Include="JsonSubTypes" Version="2.0.1"/>
+        <PackageVersion Include="Lib.AspNetCore.WebPush" Version="2.2.2"/>
+        <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.10"/>
+        <PackageVersion Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="10.0.10"/>
+        <PackageVersion Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="10.0.10"/>
+        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.8.1"/>
+        <PackageVersion Include="Moq" Version="4.20.72"/>
+        <PackageVersion Include="MSTest" Version="4.3.3"/>
+        <PackageVersion Include="NSec.Cryptography" Version="26.4.0"/>
+        <PackageVersion Include="prometheus-net.AspNetCore" Version="8.2.1"/>
+        <PackageVersion Include="StackExchange.Redis" Version="3.1.0"/>
+    </ItemGroup>
+</Project>
