@@ -137,7 +137,7 @@ public class SignalV1HubTests
                 LogLevel.Error,
 #pragma warning disable CA1873
                 It.IsAny<EventId>(),
-                It.Is<It.IsAnyType>((state, _) => state.ToString() == expectedLogMessage),
+                It.Is<It.IsAnyType>((state, _) => state != null && state.ToString() == expectedLogMessage),
                 exception,
                 It.IsAny<Func<It.IsAnyType, Exception?, string>>()))
 #pragma warning restore CA1873
